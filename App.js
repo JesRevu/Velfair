@@ -55,7 +55,7 @@ export default function App() {
         <BarCodeScanner onBarCodeScanned={scanned ? undefined: handleBarCodeScanned}
         style={{height: 400, widht: 4000}} />      
       </View>
-      <Text style={styles.maintext}>{data}</Text>
+      <Text style={styles.maintext}>{text}</Text>
 
       {scanned && <Button title={'Sacan Again'} onPress={() => setScanned(false)} color='tomato' />}
     </View>
