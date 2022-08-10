@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "qrscanqr",
+    "slug": "qrscanqr",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "qrscanqr"
+}
