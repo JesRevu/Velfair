@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState, useEffect} from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
-import { registerRootComponent } from 'expo';
 
 
 export default function App() {
@@ -78,7 +77,6 @@ const styles = StyleSheet.create({
     width: 300,
     overflow: 'hidden',
     borderRadius: 30,
-    backgroundColor: 'tomato'
   },
 
   maintext: {
